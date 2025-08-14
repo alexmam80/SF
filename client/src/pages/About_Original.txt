@@ -1,0 +1,26 @@
+// src/pages/About.jsx
+import img4 from '../assets/gallery/photo10.jpg';
+
+export default function About() {
+  return (
+    <section className="corp">
+      {/* ... alte blocuri, daca ai ... */}
+
+      {/* Serviciile Noastre (text stanga, imagine dreapta) */}
+      <div className="feature reverse">
+        <div className="text">
+          <h2>Serviciile Noastre</h2>
+          <p>Oferim tatuaje pentru buze, sprancene ?i gene, realizate de speciali?ti califica?i.</p>
+          <ul className="list-servicii">
+            <li>Tatuaj buze</li>
+            <li>Tatuaj sprancene</li>
+            <li>Tatuaj gene</li>
+          </ul>
+        </div>
+        <div className="img">
+          <img src={img4} alt="Tatuaj sprancene – exemplu" />
+        </div>
+      </div>
+    </section>
+  );
+}
