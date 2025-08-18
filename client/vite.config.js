@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-    base: process.env.GITHUB_PAGES ? '/SF/' : '/', // <- schimbă REPO_NAME
-
+  base: '/SF/',   // <- numele repo-ului tău
 })
