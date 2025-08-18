@@ -1,0 +1,144 @@
+{
+  "brand": "MyLogo",
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "aria": {
+    "phone": "Telefon",
+    "instagram": "Instagram",
+    "email": "Email",
+    "back_to_top": "Înapoi sus",
+    "messenger_open": "Deschide Messenger",
+    "messenger_close": "Închide"
+  },
+  "footer": {
+    "rights": "© 2025. Toate drepturile rezervate"
+  },
+  "seo": {
+    "home_title": "Acasă",
+    "home_desc": "Salon de micropigmentare: sprâncene, buze și contur ochi. Rezultate naturale și sigure.",
+    "about_title": "Despre",
+    "about_desc": "Studio specializat în micropigmentare: precizie, siguranță și estetică.",
+    "gallery_title": "Galerie",
+    "gallery_desc": "Vezi lucrările noastre: sprâncene, buze și contur de ochi.",
+    "contact_title": "Contact",
+    "contact_desc": "Contactează-ne pe Instagram, telefon sau email. Programează-te online."
+  },
+  "hero": {
+    "eyebrow": "Salon · Micropigmentare · Îngrijire",
+    "title": "Frumusețe care ține\nmai mult decât o zi",
+    "lead": "Sprâncene, buze și contur de ochi realizate de specialiști. Rezultate naturale, sigure și de durată.",
+    "cta_gallery": "Vezi galeria",
+    "cta_book": "Programează-te"
+  },
+  "home": {
+    "cards": {
+      "lips_title": "Buze",
+      "lips_desc": "Contur și umbrire pentru volum și culoare uniforme.",
+      "brows_title": "Sprâncene",
+      "brows_desc": "Formă personalizată: powder/ombré sau efect fir-cu-fir.",
+      "eyes_title": "Ochi",
+      "eyes_desc": "Contur discret sau accentuat; aspect mereu îngrijit."
+    },
+    "why": {
+      "title": "De ce să ne alegi",
+      "i1": "Tehnici moderne și igienă strictă",
+      "i2": "Consultanță înainte și după procedură",
+      "i3": "Rezultate naturale, adaptate trăsăturilor tale"
+    }
+  },
+  "about": {
+    "title": "Despre noi",
+    "intro": "Suntem un studio specializat în micropigmentare – combinăm precizia, siguranța și estetica pentru rezultate care rezistă.",
+    "p1_title": "Puterea frumuseții",
+    "p1_text": "Chiar și atotputernicul Pointing nu are control asupra textelor oarbe, este o viață aproape neortografică. Într-o zi, totuși, o mică linie de text oarbă pe nume Lorem Ipsum a decis să plece în Lumea Gramaticii.",
+    "p1_list": {
+      "i1": "Eliminarea tatuajului cu laser",
+      "i2": "Micropigmentarea sprâncenelor",
+      "i3": "Micropigmentarea buzelor"
+    },
+    "p2_title": "Tatuajul",
+    "p2_text_1": "Tatuajul, cunoscut și sub denumirea de machiaj permanent, este o procedură apreciată de multe femei. Acesta este un machiaj care nu trebuie reînnoit în fiecare zi și spălat înainte de culcare. Este un tatuaj temporar, în timpul căruia un pigment natural de colorare este plasat sub straturile superioare ale pielii. Rezultatul este un machiaj de lungă durată, care nu se spală. Tatuajul își păstrează în mod ideal aspectul original, durează de la câteva luni la câțiva ani. Cu timpul, culoarea se estompează, dar acest lucru se întâmplă foarte lent.",
+    "p2_text_2": "Specialiștii salonului „Anastasia” cunosc cât de important este pentru tine să arăți perfect, așa că suntem pregătiți să îți oferim orice fel de tatuaj, realizat profesional și la un preț accesibil.",
+    "p3_title": "Varietăți de tatuaj în salonul de frumusețe „KristinaBeauty”",
+    "p3_intro": "Industria frumuseții oferă o gamă largă de tratamente de machiaj permanent care pot satisface aproape toate nevoile de bază ale femeilor. Cele mai populare:",
+    "p3_items": {
+      "i1_b": "Conturul genelor.",
+      "i1_t": " Zonele dintre gene sunt pigmentate, creând efectul unui aspect deschis și gene mai bogate; permite ridicarea vizuală a colțurilor ochilor.",
+      "i2_b": "Conturul ochilor.",
+      "i2_t": " Machiaj perfect fără efort zilnic. Săgeți subțiri sau îndrăznețe, pe pleoapa superioară sau pe ambele.",
+      "i3_b": "Buze.",
+      "i3_t": " Aliniere asimetrie, contur clar, cu umbrire sau umplere completă cu culoare.",
+      "i4_b": "Sprâncene.",
+      "i4_t": " Ajustare formă și culoare, efect vizual de densitate (microblading, powder/ombré etc.)."
+    },
+    "services_title": "Serviciile Noastre",
+    "services_text": "Oferim tatuaje pentru buze, sprâncene și gene, realizate de specialiști calificați.",
+    "services_list": {
+      "i1": "Tatuaj buze",
+      "i2": "Tatuaj sprâncene",
+      "i3": "Tatuaj gene"
+    },
+    "stats": {
+      "y_exp": "ani experiență",
+      "done": "proceduri efectuate",
+      "happy": "clienți mulțumiți"
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "empty": "Adaugă imagini în src/assets/gallery (jpg/png/webp) și reîncarcă pagina.",
+    "thumb_alt": "Miniatură {{n}}"
+  },
+  "pagination": {
+    "prev": "Anterior",
+    "next": "Următor"
+  },
+  "lightbox": {
+    "close": "Închide",
+    "prev": "Înapoi",
+    "next": "Înainte"
+  },
+  "widget": {
+    "title": "Scrie-ne",
+    "hello": "Salut! Cu ce te putem ajuta?",
+    "messenger": "Messenger",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram"
+  },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "instagram": "Instagram",
+      "phone": "Telefon",
+      "email": "Email"
+    },
+    "form": {
+      "first": "Nume",
+      "last": "Prenume",
+      "email": "Email",
+      "phone": "Telefon",
+      "date": "Data programării",
+      "time": "Ora programării",
+      "message": "Mesaj",
+      "file": "Atașament (PNG/JPG)",
+      "captcha": "Captcha: cât fac {{a}} + {{b}} ?",
+      "submit": "Trimite",
+      "ph_message": "Detalii...",
+      "ph_captcha": "Răspuns",
+      "choose": "Alege fișierul",
+      "no_file": "Nu ai ales niciun fișier"
+    },
+    "errors": {
+      "captcha": "Captcha greșită.",
+      "required": "Completează câmpurile obligatorii.",
+      "filetype": "Accept doar PNG/JPG.",
+      "network": "Eroare de rețea sau server.",
+      "generic": "A apărut o problemă la trimitere."
+    },
+    "status_ok": "Trimis cu succes! Programarea a fost salvată."
+  }
+}

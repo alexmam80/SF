@@ -1,0 +1,62 @@
+import img1 from '../assets/gallery/photo7.jpg'
+import img2 from '../assets/gallery/tatuaj.jpg'
+import img3 from '../assets/gallery/tatuaj2.jpg'
+
+export default function Home() {
+  return (
+    <section className="corp">
+      {/* Bloc 1: imagine stanga, text dreapta */}
+      <div className="feature">
+        <div className="img"><img src={img1} alt="Coafor – puterea frumuse?ii" /></div>
+        <div className="text">
+          <h2>Puterea frumuse?ii</h2>
+          <p>
+            Chiar ?i atotputernicul Pointing nu are control asupra textelor oarbe, este o via?a aproape
+            neortografica. Intr-o zi, totu?i, o mica linie de text oarba pe nume Lorem Ipsum a decis sa plece
+            in Lumea Gramaticii.
+          </p>
+          <ul>
+            <li>Eliminarea tatuajului cu laser</li>
+            <li>Micropigmentarea sprancenelor</li>
+            <li>Micropigmentarea buzelor</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Bloc 2: text stanga, imagine dreapta */}
+      <div className="feature reverse">
+        <div className="text">
+          <h2>Tatuajul</h2>
+          <p>
+            Tatuajul, cunoscut ?i sub denumirea de machiaj permanent, este o procedura apreciata de multe femei.
+            Acesta este un machiaj care nu trebuie reinnoit in fiecare zi ?i spalat inainte de culcare. Este un tatuaj
+            temporar, in timpul caruia un pigment natural de colorare este plasat sub straturile superioare ale pielii.
+            Rezultatul este un machiaj de lunga durata, care nu se spala. Tatuajul i?i pastreaza in mod ideal aspectul
+            original, dureaza de la cateva luni la ca?iva ani. Cu timpul, culoarea se estompeaza, dar acest lucru se
+            intampla foarte lent.
+          </p>
+          <p>
+            Speciali?tii salonului „Anastasia” cunosc cat de important este pentru tine sa ara?i perfect, a?a ca suntem
+            pregati?i sa i?i oferim orice fel de tatuaj, realizat profesional ?i la un pre? accesibil.
+          </p>
+        </div>
+        <div className="img"><img src={img2} alt="Tatuaj – exemplu" /></div>
+      </div>
+
+      {/* Bloc 3: imagine stanga, text dreapta */}
+      <div className="feature">
+        <div className="img"><img src={img3} alt="Varieta?i de tatuaj" /></div>
+        <div className="text">
+          <h2>Varieta?i de tatuaj in salonul de frumuse?e „KristinaBeauty”</h2>
+          <p>Industria frumuse?ii ofera o gama larga de tratamente de machiaj permanent care pot satisface aproape toate nevoile de baza ale femeilor. Cele mai populare:</p>
+          <ul>
+            <li><strong>Conturul genelor.</strong> Zonele dintre gene sunt pigmentate, creand efectul unui aspect deschis ?i gene mai bogate; permite ridicarea vizuala a col?urilor ochilor.</li>
+            <li><strong>Conturul ochilor.</strong> Machiaj perfect fara efort zilnic. Sage?i sub?iri sau indrazne?e, pe pleoapa superioara sau pe ambele.</li>
+            <li><strong>Buze.</strong> Aliniere asimetrie, contur clar, cu umbrire sau umplere completa cu culoare.</li>
+            <li><strong>Sprancene.</strong> Ajustare forma ?i culoare, efect vizual de densitate (microblading, powder/ombre etc.).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
