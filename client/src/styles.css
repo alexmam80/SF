@@ -28,6 +28,7 @@ a:hover { text-decoration: underline; }
 .header-inner { display: flex; align-items: center; gap: 20px; padding: 12px 0; justify-content: space-between; }
 .logo { font-weight: 800; letter-spacing: 0.5px; }
 .main-nav a { margin: 0 10px; padding: 6px 10px; border-radius: 10px; }
+@media (max-width: 600px) {.main-nav a { margin: 0; padding: 6px 10px; border-radius: 10px; }}
 .main-nav a.active, .main-nav a:hover { background: var(--muted); text-decoration: none; }
 .social { display: flex; align-items: center; gap: 12px; justify-content: flex-end; }
 .social a { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; }
