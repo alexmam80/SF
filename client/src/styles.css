@@ -27,6 +27,7 @@ a:hover { text-decoration: underline; }
 }
 .header-inner { display: flex; align-items: center; gap: 20px; padding: 12px 0; justify-content: space-between; }
 .logo { font-weight: 800; letter-spacing: 0.5px; }
+.logo .logo-img {width: 100px; height: 100px; overflow: hidden; }
 .main-nav a { margin: 0 10px; padding: 6px 10px; border-radius: 10px; }
 @media (max-width: 600px) {.main-nav a { margin: 0; padding: 6px 10px; border-radius: 10px; }}
 .main-nav a.active, .main-nav a:hover { background: var(--muted); text-decoration: none; }
