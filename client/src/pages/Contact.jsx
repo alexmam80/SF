@@ -86,7 +86,7 @@ export default function Contact() {
       <h1>{t('contact.title')}</h1>
 
       <div className="contact-info">
-        <p><strong>{t('contact.info.instagram')}:</strong> <a href="https://www.instagram.com/mamaliga.alexandru/" target="_blank" rel="noreferrer">https://www.instagram.com/mamaliga.alexandru/</a></p>
+        <p><strong>{t('contact.info.instagram')}:</strong> <a href="https://www.instagram.com/mamaliga.alexandru/" target="_blank" rel="noreferrer">Alexandru Mămăligă</a></p>
         <p><strong>{t('contact.info.phone')}:</strong> <a href="tel:+37379613613">+373 79 613 613</a></p>
         <p><strong>{t('contact.info.email')}:</strong> <a href="mailto:alexmam80@gmail.com">alexmam80@gmail.com</a></p>
       </div>
