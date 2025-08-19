@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FiPhoneCall, FiInstagram, FiMail } from 'react-icons/fi'
 import { useTranslation } from 'react-i18next'
+import logo from '../assets/gallery/logo.png'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -10,7 +11,11 @@ export default function Footer() {
       <button className="back-to-top" onClick={goTop} aria-label={t('aria.back_to_top')}>↑</button>
       <div className="container footer-inner">
         <div className="footer-col">
-          <div className="logo">MyLogo</div>
+          <div className="logo">
+            <a href="#/" className="logo-a" aria-label="Ultraservice SRL">
+              <img src={logo} alt="Salon de Frumusețe" className="logo-img" />
+            </a>
+          </div>
         </div>
         <div className="footer-col">
           <nav className="footer-nav">
